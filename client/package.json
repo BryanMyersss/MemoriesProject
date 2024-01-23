@@ -24,7 +24,7 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0"
   },
-  "homepage": "/memories",
+  "homepage": "/memoriesapp",
   "scripts": {
     "start": "set PORT=3003 && react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",

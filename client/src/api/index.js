@@ -1,13 +1,13 @@
 import axios from 'axios';
 
 // Get the hostname (IP address) of the current location
-const hostname = window.location.hostname;
+// const hostname = window.location.hostname;
 
 // Set the port and route
 const port = 5000;
 
 // Construct the base URL dynamically
-const url = `http://${hostname}:${port}/posts`;
+const url = `http://localhost:${port}/posts`;
 
 export const fetchPosts = () => axios.get(url);
 export const createPost = (newPost) => axios.post(url, newPost);
